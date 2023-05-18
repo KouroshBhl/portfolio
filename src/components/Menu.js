@@ -38,12 +38,12 @@ const Menu = () => {
 const Wrapper = styled.header`
   display: flex;
   height: 10rem;
-  background-color: #f0f0f0;
   font-size: 1.4rem;
   justify-content: space-between;
   align-items: center;
   padding: 0 11.6rem;
   text-transform: uppercase;
+  background-color: var(--main-bg-color);
 
   ul {
     display: flex;

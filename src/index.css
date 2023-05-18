@@ -1,10 +1,13 @@
 :root {
   --main-bg-color: #f9f9fc;
+  --main-bg-color-white: #ffffff;
   --main-font-color-dark: #000000;
   --main-font-color-light: #ffffff;
   --main-theme-color: #5e3bee;
 
   --secondory-font-color: #333333;
+
+  --circle-color: #f1f0fb;
 }
 *,
 ::after,
@@ -18,10 +21,8 @@ html {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--clr-white);
-  color: var(--clr-grey-1);
+  background: var(--main-bg-color-white);
   line-height: 1;
-  background-color: var(--main-bg-color);
 }
 ul {
   list-style-type: none;

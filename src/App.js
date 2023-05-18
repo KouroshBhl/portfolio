@@ -6,6 +6,7 @@ function App() {
     <Container>
       <Menu></Menu>
       <Hero />
+      <h2>Continue...</h2>
     </Container>
   );
 }
