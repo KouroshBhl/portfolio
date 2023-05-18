@@ -6,7 +6,7 @@ import { AiOutlineDownload } from 'react-icons/ai';
 const HeroLeft = () => {
   return (
     <Wrapper>
-      <h2>Kourosh Baharloo</h2>
+      <h3>Kourosh Baharloo</h3>
 
       <h1>
         Hello, my name's Kourosh. <br /> I'm Front-End Developer
@@ -28,20 +28,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
-  h2 {
-    font-size: 1.6rem;
-    color: var(--main-theme-color);
-    text-transform: uppercase;
-    line-height: 2.6;
-    font-weight: 500;
-  }
-
-  h1 {
-    font-size: 6rem;
-    line-height: 7.6rem;
-    color: var(--secondory-font-color);
-    font-weight: 700;
-  }
 
   .hero__btn {
     display: flex;

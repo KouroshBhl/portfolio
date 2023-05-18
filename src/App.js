@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { Menu, Hero } from './components/index';
+import { Menu, Hero, Skills } from './components/index';
 
 function App() {
   return (
     <Container>
       <Menu></Menu>
       <Hero />
-      <h2>Continue...</h2>
+      <Skills />
     </Container>
   );
 }

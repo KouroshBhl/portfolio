@@ -2,6 +2,7 @@ import React from 'react';
 import HeroLeft from './HeroLeft';
 import HeroRight from './HeroRight';
 import { styled } from 'styled-components';
+import Triangle from './Triangle';
 
 const Hero = () => {
   return (
@@ -10,8 +11,7 @@ const Hero = () => {
         <HeroLeft />
         <HeroRight />
       </div>
-
-      <div className='triangle'></div>
+      <Triangle />
     </Wrapper>
   );
 };
@@ -27,15 +27,6 @@ const Wrapper = styled.section`
     align-items: center;
     padding: 1.6rem 11.6rem;
     gap: 14.6rem;
-  }
-
-  .triangle {
-    clip-path: polygon(50% 0%, 100% 50%, 30% 100%);
-    background-color: var(--main-theme-color);
-    width: 9rem;
-    height: 9rem;
-    margin: 0 auto;
-    border-radius: 13px;
   }
 `;
 
