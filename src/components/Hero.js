@@ -12,7 +12,7 @@ const Hero = () => {
         <HeroLeft />
         <HeroRight />
       </Container>
-      <Triangle />
+      <Triangle pick={'purple'} />
     </Wrapper>
   );
 };

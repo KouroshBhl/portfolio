@@ -10,7 +10,9 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 11.6rem;
+  padding: 1.6rem 0;
+  max-width: 90%;
+  margin: 0 auto;
   gap: 14.6rem;
 `;
 
