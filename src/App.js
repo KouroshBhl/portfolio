@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Menu, Hero, Skills } from './components/index';
+import { Menu, Hero, Skills, AboutMe } from './components/index';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Menu></Menu>
       <Hero />
       <Skills />
+      <AboutMe />
     </Container>
   );
 }
