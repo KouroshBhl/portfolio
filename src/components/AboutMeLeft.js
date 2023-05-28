@@ -16,7 +16,7 @@ const AboutMeLeft = () => {
   );
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.article`
   display: flex;
   flex-direction: column;
   gap: 2.2rem;

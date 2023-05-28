@@ -1,8 +1,8 @@
 import React from 'react';
 import { styled } from 'styled-components';
 
-const PurpleCircle = ({ className, size }) => {
-  let recSize = 0;
+const PurpleCircle = ({ className, size, color }) => {
+  let recSize = size;
 
   switch (size) {
     case 'small':
@@ -18,14 +18,18 @@ const PurpleCircle = ({ className, size }) => {
       break;
 
     default:
-      recSize = 0;
+      recSize = size;
       break;
   }
 
   return (
     <Wrapper
       className={className}
-      style={{ width: recSize, height: recSize }}
+      style={{
+        width: recSize,
+        height: recSize,
+        backgroundColor: color,
+      }}
     ></Wrapper>
   );
 };

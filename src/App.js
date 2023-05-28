@@ -1,5 +1,12 @@
 import styled from 'styled-components';
-import { Menu, Hero, Skills, AboutMe } from './components/index';
+import {
+  Menu,
+  Hero,
+  Skills,
+  AboutMe,
+  ContactMe,
+  Footer,
+} from './components/index';
 
 function App() {
   return (
@@ -8,6 +15,8 @@ function App() {
       <Hero />
       <Skills />
       <AboutMe />
+      <ContactMe />
+      <Footer />
     </Container>
   );
 }

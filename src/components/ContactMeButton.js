@@ -21,6 +21,7 @@ const Wrapper = styled.button`
   color: var(--main-font-color-light);
   border-radius: 50px;
   display: inline-block;
+  z-index: 10;
 
   .button_wrapper {
     display: flex;
