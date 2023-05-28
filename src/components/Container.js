@@ -1,8 +1,8 @@
 import React from 'react';
 import { styled } from 'styled-components';
 
-const Container = ({ children }) => {
-  return <Wrapper>{children}</Wrapper>;
+const Container = ({ className, children }) => {
+  return <Wrapper className={className}>{children}</Wrapper>;
 };
 
 const Wrapper = styled.div`
@@ -11,7 +11,6 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 1.6rem 0;
-  max-width: 90%;
   margin: 0 auto;
   gap: 14.6rem;
 `;

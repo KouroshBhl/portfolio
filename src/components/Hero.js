@@ -8,7 +8,7 @@ import Container from './Container';
 const Hero = () => {
   return (
     <Wrapper>
-      <Container>
+      <Container className='hero__container'>
         <HeroLeft />
         <HeroRight />
       </Container>
@@ -20,6 +20,10 @@ const Hero = () => {
 const Wrapper = styled.section`
   background-color: var(--main-bg-color);
   padding-bottom: 4.5rem;
+
+  .hero__container {
+    max-width: 90%;
+  }
 `;
 
 export default Hero;
