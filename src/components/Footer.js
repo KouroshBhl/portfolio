@@ -50,7 +50,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p>All right reserved</p>
+          <p className='footer__right'>&copy; All Right Reserved</p>
         </section>
       </div>
     </Wrapper>
@@ -84,7 +84,7 @@ const Wrapper = styled.footer`
   .footer__paragraph {
     color: var(--main-bg-color-white);
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 3.2rem;
     max-width: 70%;
   }
@@ -94,7 +94,7 @@ const Wrapper = styled.footer`
     flex-direction: column;
     color: var(--main-bg-color-white);
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 400;
     gap: 2.4rem;
   }
   .footer__contact svg {
@@ -117,6 +117,24 @@ const Wrapper = styled.footer`
   .footer__copyright {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__menu {
+    display: flex;
+    gap: 4.6rem;
+  }
+
+  .footer__menu li a {
+    color: var(--main-bg-color-white);
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .footer__right {
+    color: rgba(255, 255, 255, 60%);
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 `;
 
