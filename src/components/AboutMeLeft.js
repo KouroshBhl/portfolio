@@ -20,6 +20,7 @@ const Wrapper = styled.article`
   display: flex;
   flex-direction: column;
   gap: 2.2rem;
+  margin-left: 6.2rem;
 
   .desc_paragraph {
     margin-bottom: 1.8rem;
